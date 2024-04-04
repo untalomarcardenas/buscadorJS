@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+    background-image: linear-gradient(to right, #D66D75, #E29587 100%);
+    
+    font-family: 'Staatliches', cursive;
+}
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 6rem;
+    padding: 3rem 0;
+    margin: 0;
+}
+.contenedor {
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+p {
+    font-size: 2rem;
+}
+h1, p {
+    text-align: center;
+}
+form {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 4rem;
+    background: white;
+    margin-bottom: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#app p{
+    text-align: left!important;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#resultado p {
+    margin: 0;
+    padding: 2rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+#resultado p span {
+    font-weight: bold;
+}
+#resultado p:last-of-type{
+    border: none;
+}
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+}
+.error {
+    background-color: red;
+}
+
+
+
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    padding: 2rem  0;
+}
+
+.footer__container{
+    font-size: 2.5rem;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0px;
+}
+
+.footer__text{
+    margin: 0 5px; 
+    width: auto;
+    text-align: center;
+}
+
+.footer__link{
+    font-size: 3rem;
+    font-weight: 600;
+    text-decoration: none !important;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Clicker script', cursive;
+    outline: none; 
+    text-align: center;
+} 
